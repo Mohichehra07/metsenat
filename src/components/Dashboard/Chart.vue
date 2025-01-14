@@ -3,18 +3,18 @@
         <div class="container chart__container">
             <div class="bg-white rounded-lg mt-7">
                 <div class="p-6">
-                    <h3 class="text-2xl font-bold text-gray-200">Homiylar va talabalar soni</h3>
+                    <h3 class="text-2xl font-bold text-gray-400">Homiylar va talabalar soni</h3>
                     <div class="flex items-center">
                         <div class="flex items-center">
-                            <img src="" alt="ellipse-blue">
-                            <p class="font-rubik text-gra-300 ms-2">Homiylar</p>
+                            <div class="w-5 h-5 bg-blue-200 rounded-full"></div>
+                            <p class="text-gray-400 font-rubik ms-2">Homiylar</p>
                         </div>
                         <div class="flex items-center ms-5">
-                            <img src="" alt="ellipse-pink">
-                            <p class="text-gray-200 font-rubik">Talabalar</p>
+                            <div class="w-5 h-5 bg-pink-200 rounded-full"></div>         
+                            <p class="text-gray-400 font-rubik">Talabalar</p>
                         </div>
                     </div>
-                    <ApexCharts></ApexCharts>
+                    <!-- <ApexCharts></ApexCharts> -->
                 </div>
             </div>
         </div>
